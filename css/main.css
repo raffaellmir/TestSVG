@@ -1,0 +1,25 @@
+/*Обнуление*/
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+	background-color: #fff;
+	color: #333;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.map {
+    position: relative;
+    text-align: center;
+}
+
+.background_img {
+    width: 60%;
+}
+
